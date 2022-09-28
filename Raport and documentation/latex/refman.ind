@@ -1,0 +1,19 @@
+\begin{theindex}
+
+  \item {canvas}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Line}, \hyperpage{4}
+
+  \indexspace
+
+  \item {Particle}, \hyperpage{4}
+    \subitem {valueOfProp}, \hyperpage{5}
+
+  \indexspace
+
+  \item {valueOfProp}
+    \subitem {Particle}, \hyperpage{5}
+
+\end{theindex}

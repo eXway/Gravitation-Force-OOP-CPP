@@ -1,0 +1,128 @@
+\hypertarget{class_particle}{}\doxysection{Particle Class Reference}
+\label{class_particle}\index{Particle@{Particle}}
+
+
+Class for \mbox{\hyperlink{class_particle}{Particle}} (or just element) with needed parameters.  
+
+
+
+
+{\ttfamily \#include $<$Gravitation\+Lib.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_particle_a6c799c7c819a4bf92539eea31c8651ee}\label{class_particle_a6c799c7c819a4bf92539eea31c8651ee}} 
+{\bfseries Particle} (double tx, double ty, double tr, double tvx, double tvy, double tm)
+\item 
+void \mbox{\hyperlink{class_particle_a43d919d05c9035cdbb0c6263e1619bdf}{value\+Of\+Prop}} (int index, double value)
+\begin{DoxyCompactList}\small\item\em Function for converting floating point values of relational values into right data type. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_particle_a50178b539f189ab832d7e236e60c6d00}{value\+Of\+Prop}} (int index, string value)
+\begin{DoxyCompactList}\small\item\em Function for converting string values of relational values into right data type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_particle_ac063883c32cc0d0198eafa1664682039}\label{class_particle_ac063883c32cc0d0198eafa1664682039}} 
+void \mbox{\hyperlink{class_particle_ac063883c32cc0d0198eafa1664682039}{print\+All}} ()
+\begin{DoxyCompactList}\small\item\em Debuging function for printing particle data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_particle_a1e3e5e103cee69ae9acb9c3269d009d7}\label{class_particle_a1e3e5e103cee69ae9acb9c3269d009d7}} 
+double {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_particle_a434ab690dde4422ac74ae10f6ace7a52}\label{class_particle_a434ab690dde4422ac74ae10f6ace7a52}} 
+double {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_particle_ae4a3e44c4c731d42007e1965ea8eacee}\label{class_particle_ae4a3e44c4c731d42007e1965ea8eacee}} 
+double {\bfseries r}
+\item 
+\mbox{\Hypertarget{class_particle_a53bf9654ce8a84bc294528b041027c3a}\label{class_particle_a53bf9654ce8a84bc294528b041027c3a}} 
+double {\bfseries vx}
+\item 
+\mbox{\Hypertarget{class_particle_af5ec7ca65cc36f119586d446e42c6175}\label{class_particle_af5ec7ca65cc36f119586d446e42c6175}} 
+double {\bfseries vy}
+\item 
+\mbox{\Hypertarget{class_particle_aedcc7e1bc53b0e2b1a4a07c9a1b47563}\label{class_particle_aedcc7e1bc53b0e2b1a4a07c9a1b47563}} 
+double {\bfseries m}
+\item 
+\mbox{\Hypertarget{class_particle_a664ab9d41a16abfcc46193981e664fe3}\label{class_particle_a664ab9d41a16abfcc46193981e664fe3}} 
+double {\bfseries color} \mbox{[}3\mbox{]}
+\item 
+\mbox{\Hypertarget{class_particle_aafbb25aa919ae6b810fcd66443de9cce}\label{class_particle_aafbb25aa919ae6b810fcd66443de9cce}} 
+string {\bfseries name}
+\item 
+\mbox{\Hypertarget{class_particle_ae6d46dc24a6666d526f211151fecca5f}\label{class_particle_ae6d46dc24a6666d526f211151fecca5f}} 
+double {\bfseries mass}
+\item 
+\mbox{\Hypertarget{class_particle_acc5e59e108787fad35906e8459c4c227}\label{class_particle_acc5e59e108787fad35906e8459c4c227}} 
+string {\bfseries relation}
+\item 
+\mbox{\Hypertarget{class_particle_ad5a033f24f1b67570ec08cd1ee6a24e0}\label{class_particle_ad5a033f24f1b67570ec08cd1ee6a24e0}} 
+double {\bfseries distance}
+\item 
+\mbox{\Hypertarget{class_particle_a6ee6c2cf59fa7b56475acae188e5a11a}\label{class_particle_a6ee6c2cf59fa7b56475acae188e5a11a}} 
+double {\bfseries speed}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for \mbox{\hyperlink{class_particle}{Particle}} (or just element) with needed parameters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & = absolute (in px) horizontal position \\
+\hline
+{\em y} & = absolute (in px) vertical position \\
+\hline
+{\em r} & = radius of element (visual purpuses) \\
+\hline
+{\em vx} & = velocity (or delta position) in horizontal vector \\
+\hline
+{\em vy} & = velocity (or delta position) in vertical vector \\
+\hline
+{\em m} & = true mass for calculating force \\
+\hline
+{\em rest} & = rest parameters was made for relational positioning, not absolute \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_particle_a43d919d05c9035cdbb0c6263e1619bdf}\label{class_particle_a43d919d05c9035cdbb0c6263e1619bdf}} 
+\index{Particle@{Particle}!valueOfProp@{valueOfProp}}
+\index{valueOfProp@{valueOfProp}!Particle@{Particle}}
+\doxysubsubsection{\texorpdfstring{valueOfProp()}{valueOfProp()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Particle\+::value\+Of\+Prop (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Function for converting floating point values of relational values into right data type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & = what data is to be changed \\
+\hline
+{\em value} & = value of data to be changed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_particle_a50178b539f189ab832d7e236e60c6d00}\label{class_particle_a50178b539f189ab832d7e236e60c6d00}} 
+\index{Particle@{Particle}!valueOfProp@{valueOfProp}}
+\index{valueOfProp@{valueOfProp}!Particle@{Particle}}
+\doxysubsubsection{\texorpdfstring{valueOfProp()}{valueOfProp()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Particle\+::value\+Of\+Prop (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Function for converting string values of relational values into right data type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & = what data is to be changed \\
+\hline
+{\em value} & = value of data to be changed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Gravitation\+Lib.\+h\item 
+Gravitation\+Lib.\+cpp\end{DoxyCompactItemize}
